@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "babel ./src --out-dir lib"
+    "compile": "babel src --out-dir lib"
   },
   "repository": {
     "type": "git",
@@ -22,10 +22,10 @@
   "homepage": "https://github.com/LittleBreak/babel-test#readme",
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.32",
-    "@babel/plugin-transform-runtime": "^7.0.0-beta.32",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0-beta.32"
